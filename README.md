@@ -1,0 +1,1 @@
+This can be used to find out the path between two wiki links. The average number of links between two wiki pages is 3.7. You stat a start wiki page and an end wiki page. This finds the path needed to get from the start to the finish. It can be used to play the wiki game. https://www.thewikigame.com/group

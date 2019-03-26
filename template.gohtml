@@ -1,0 +1,24 @@
+<!-- forms.html -->
+{{if .Success}}
+    <h1>Wiki Search</h1>
+    <h2>Enter path</h2>
+    <form method="POST">
+        <label>Start:</label><br />
+        <input type="text" name="start"><br />
+        <label>End:</label><br />
+        <input type="text" name="end"><br />
+        <input type="submit"><br />
+        <label>Route:</label><br />
+        <label>{{.Route}}</label><br />
+    </form>
+{{else}}
+	<h1>Wiki Search</h1>
+    <h2>Enter path</h2>
+	<form method="POST">
+		<label>Start:</label><br />
+		<input type="text" name="start"><br />
+		<label>End:</label><br />
+		<input type="text" name="end"><br />
+		<input type="submit">
+	</form>
+{{end}}
